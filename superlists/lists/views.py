@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def home_page():
-    pass
+    retun HttpResponse('<html><title>To-Do lists</title></html>')
